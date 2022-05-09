@@ -5,12 +5,11 @@ def format_mon(month):
 		year=day=month=month.split()
 		month=months.get(month[0].lower())
 		day=day[1][0:2]
-		print(day)
+
 		if ',' in day:
 			day='0'+day[0]
 		year=year[2]
-		print(day)
-		print(year+'-'+month+'-'+day)
+
 		return year+'-'+month+'-'+day
 	except:
 	 	return month

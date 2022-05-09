@@ -19,5 +19,4 @@ def save_user(username,password):
 	
 def auth(username,password):
 	user=authenticate(username= username, password=password)
-	print('.....................' ,user)
 	return user
