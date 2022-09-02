@@ -30,5 +30,12 @@ urlpatterns = [
         path("admin_fac",views.admin_fac,name='admin_fac'),
          path("admin_room",views.admin_room,name='admin_room'),
           path("admin_exam",views.admin_exam,name='admin_exam'),
+          path("edit",views.admin_home,name='edit'),
+          path("print_inv",views.print_inv,name='print_inv'),
+          path("print_all",views.print_all,name='print_all'),
+          path("print_dc",views.print_dc,name='print_dc'),
+          path("DUTY",views.DUTY,name='DUTY'),
+          path("delete_all",views.delete_all,name='delete_all'),
+          path("edit_fac",views.edit_fac,name='edit_fac')
       
 ]
